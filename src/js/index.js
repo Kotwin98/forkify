@@ -165,6 +165,7 @@ const controlLike = () => {
         likesView.toggleLikeBtn(true);
 
         // Add like to UI list
+        likesView.renderLike(newLike);
         console.log(state.likes);
 
     // User HAS liked current recipe    
